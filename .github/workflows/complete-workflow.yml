@@ -34,7 +34,7 @@ jobs:
         with:
           url: 'https://dtrack.quobis.com'
           key: 'gzCSBwz2K42mI3l7omchx3YiqyBuMTqO'
-          language: 'golang'
+          language: 'java'
       
       # Show the risk score output 
       - name: Get the output time

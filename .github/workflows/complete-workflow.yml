@@ -32,7 +32,7 @@ jobs:
         id: riskscoreFromDT
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-          url: 'https://dtrack.quobis.com'
+          url: 'https://cec2-201-213-27-81.sa.ngrok.io'
           key: 'gzCSBwz2K42mI3l7omchx3YiqyBuMTqO'
           language: 'java'
       

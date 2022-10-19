@@ -32,7 +32,7 @@ jobs:
         id: a1138f73-6865-407c-8c02-90dd0abb3be4
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-          url: 'https://e127-181-96-192-41.ngrok.io'
+          url: 'https://b9b1-181-96-192-41.ngrok.io'
           key: 'APfq4kWf2BMnL0fIXBCYbBBXQn3op3EA'
           language: 'java'
       

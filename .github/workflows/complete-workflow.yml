@@ -32,8 +32,8 @@ jobs:
         id: riskscoreFromDT
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-          url: 'https://5a37-181-96-192-41.ngrok.io'
-          key: 'gzCSBwz2K42mI3l7omchx3YiqyBuMTqO'
+          url: 'https://e127-181-96-192-41.ngrok.io/'
+          key: 'APHBGBo0Nd7SunJNu6xpHqilmCvjwxrZ'
           language: 'java'
       
       # Show the risk score output 

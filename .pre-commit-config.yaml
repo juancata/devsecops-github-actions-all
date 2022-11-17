@@ -5,3 +5,5 @@ repos:
     hooks:
       - id: pre_commit_bash
         stages: [commit]
+      #- id: pre_commit_python
+      #  stages: [commit]

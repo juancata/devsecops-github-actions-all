@@ -1,0 +1,7 @@
+repos:
+  # Websec hook is MANDATORY, DO NOT comment it.
+  - repo: https://github.com/despegar/git-hooks-scripts
+    rev: v0.0.1
+    hooks:
+      - id: pre_commit_bash
+        stages: [commit]

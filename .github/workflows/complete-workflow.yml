@@ -29,16 +29,16 @@ jobs:
       
       # Generates a BoM and uploads it to OWASP Dependency Track
       - name: Generates BoM and upload to OWASP DTrack
-        id: a1138f73-6865-407c-8c02-90dd0abb3be4
+        id: 4cc536a8-bf02-4c2d-93e5-28e662ff533e
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-          url: 'https://b9b1-181-96-192-41.ngrok.io'
-          key: 'APfq4kWf2BMnL0fIXBCYbBBXQn3op3EA'
+          url: 'https://98ab-181-170-150-160.sa.ngrok.io'
+          key: 'HfqwLa8OKMZQtQb8I8hrvaEvYNbdf5eA'
           language: 'java'
       
       # Show the risk score output 
       - name: Get the output time
-        run: echo "The risk score of the project is ${{ steps.a1138f73-6865-407c-8c02-90dd0abb3be4.outputs.riskscore }}"
+        run: echo "The risk score of the project is ${{ steps.4cc536a8-bf02-4c2d-93e5-28e662ff533e.outputs.riskscore }}"
   #zap_scan:
   #  runs-on: ubuntu-latest
   #  needs: security

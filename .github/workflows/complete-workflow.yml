@@ -37,8 +37,8 @@ jobs:
           language: 'java'
       
       # Show the risk score output 
-      - name: Get the output time
-        run: echo "The risk score of the project is ${{ steps.4cc536a8-bf02-4c2d-93e5-28e662ff533e.outputs.riskscore }}"
+      #- name: Get the output time
+      #  run: echo "The risk score of the project is ${{ steps.4cc536a8-bf02-4c2d-93e5-28e662ff533e.outputs.riskscore }}"
   #zap_scan:
   #  runs-on: ubuntu-latest
   #  needs: security

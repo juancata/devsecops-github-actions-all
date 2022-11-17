@@ -1,4 +1,4 @@
-name: Appsec Workflow
+name: Appsec Workflow 
 on: push
 
 jobs:

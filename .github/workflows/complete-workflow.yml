@@ -20,7 +20,7 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_CLOUD_TEST }}
   dependency-track:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, aws]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -32,8 +32,8 @@ jobs:
         id: a1138f73-6865-407c-8c02-90dd0abb3be4
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-          url: 'https://98ab-181-170-150-160.sa.ngrok.io'
-          key: 'HfqwLa8OKMZQtQb8I8hrvaEvYNbdf5eA'
+          url: 'dependency-track-00:8081'
+          key: 'uCd4Zy1c1RVtAMMEYhnkOcCzUBGsuWRO'
           language: 'java'
       
       # Show the risk score output 
